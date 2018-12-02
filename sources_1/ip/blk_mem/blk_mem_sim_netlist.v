@@ -1,10 +1,10 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2018.2.1 (win64) Build 2288692 Thu Jul 26 18:24:02 MDT 2018
-// Date        : Sun Dec  2 14:46:56 2018
-// Host        : soul0 running 64-bit major release  (build 9200)
+// Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+// Date        : Sun Dec  2 17:34:11 2018
+// Host        : john-vm running 64-bit Ubuntu 18.04.1 LTS
 // Command     : write_verilog -force -mode funcsim
-//               c:/Users/soul0/Documents/VHDL/git_test/git_test.srcs/git_sync/sources_1/ip/blk_mem/blk_mem_sim_netlist.v
+//               /home/john/vivado/linux/linux.srcs/sources_1/ip/blk_mem/blk_mem_sim_netlist.v
 // Design      : blk_mem
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -12,7 +12,7 @@
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CHECK_LICENSE_TYPE = "blk_mem,blk_mem_gen_v8_4_1,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* x_core_info = "blk_mem_gen_v8_4_1,Vivado 2018.2.1" *) 
+(* CHECK_LICENSE_TYPE = "blk_mem,blk_mem_gen_v8_4_1,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* x_core_info = "blk_mem_gen_v8_4_1,Vivado 2018.2" *) 
 (* NotValidForBitStream *)
 module blk_mem
    (clka,
