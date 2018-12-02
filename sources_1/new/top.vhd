@@ -85,7 +85,7 @@ b: blk_mem port map (
 
 c: c_addsub_0 port map (
 	A => rom_out,
-	B => '1',
+	B => "1",
 	CLK => clk,
 	S => add_out
 );
